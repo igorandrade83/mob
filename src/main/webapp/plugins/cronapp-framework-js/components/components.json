@@ -512,7 +512,7 @@
           "order": 3
         },
         "auto-refresh": {
-          "displayName_pt_BR": "Atualizar Atomaticamente (ms)",
+          "displayName_pt_BR": "Atualizar Automaticamente (ms)",
           "displayName_en_US": "Auto Refresh (ms)",
           "removable": false,
           "global": true,
@@ -539,6 +539,33 @@
             }
           ],
           "order": 3
+        },
+        "load-data-strategy": {
+          "removable": false,
+          "type": "list",
+          "options": [
+            {
+              "key": "default",
+              "value_en_US": "Default",
+              "value_pt_BR": "Padrão"
+            },
+            {
+              "key": "all",
+              "value_en_US": "All Parameters Filled",
+              "value_pt_BR": "Todos os Filtros Preenchidos"
+            },
+            {
+              "key": "one",
+              "value_en_US": "At Least One Parameter Filled",
+              "value_pt_BR": "No mínimo um Filtro Preenchido"
+            },
+            {
+              "key": "button",
+              "value_en_US": "On Button Pressed",
+              "value_pt_BR": "Ao Pressionar Botão"
+            }
+          ],
+          "order": 4
         },
         "checkrequired": {
           "removable": false,
@@ -682,6 +709,11 @@
         },
         {
           "name": "ng-init",
+          "selector": "input",
+          "type": "event"
+        },
+        {
+          "name": "ng-change",
           "selector": "input",
           "type": "event"
         },
@@ -951,6 +983,7 @@
       "name": "crn-datasource-filter",
       "text_pt_BR": "Filtro",
       "text_en_US": "Filter",
+      "pallete": false,
       "class": "adjust-icon mdi mdi-filter",
       "order": 4,
       "templateURL": "src/main/webapp/plugins/cronapp-framework-js/dist/components/templates/datasourcefilter.template.html",
@@ -3254,6 +3287,11 @@
           "type": "event"
         },
         {
+          "name": "ng-change",
+          "selector": "input",
+          "type": "event"
+        },
+        {
           "name": "ng-click",
           "selector": "input",
           "type": "event"
@@ -3386,6 +3424,11 @@
         },
         {
           "name": "ng-init",
+          "selector": "input",
+          "type": "event"
+        },
+        {
+          "name": "ng-change",
           "selector": "input",
           "type": "event"
         },
@@ -4239,13 +4282,6 @@
           "type": "event"
         },
         {
-          "name": "ng-open",
-          "selector": "cron-select",
-          "displayName_pt_BR": "Ao Abrir",
-          "displayName_en_US": "On Open",
-          "type": "event"
-        },
-        {
           "name": "options",
           "selector": "cron-select",
           "displayName_pt_BR": "Configuração",
@@ -4336,13 +4372,6 @@
           "selector": "cron-dynamic-select",
           "displayName_pt_BR": "Ao Filtrar",
           "displayName_en_US": "On Filtering",
-          "type": "event"
-        },
-        {
-          "name": "ng-open",
-          "selector": "cron-dynamic-select",
-          "displayName_pt_BR": "Ao Abrir",
-          "displayName_en_US": "On Open",
           "type": "event"
         },
         {
@@ -4499,13 +4528,6 @@
           "selector": "cron-multi-select",
           "displayName_pt_BR": "Ao Filtrar",
           "displayName_en_US": "On Filtering",
-          "type": "event"
-        },
-        {
-          "name": "ng-open",
-          "selector": "cron-multi-select",
-          "displayName_pt_BR": "Ao Abrir",
-          "displayName_en_US": "On Open",
           "type": "event"
         },
         {
@@ -4686,13 +4708,6 @@
           "type": "event"
         },
         {
-          "name": "ng-open",
-          "selector": "cron-auto-complete",
-          "displayName_pt_BR": "Ao Abrir",
-          "displayName_en_US": "On Open",
-          "type": "event"
-        },
-        {
           "name": "ng-required",
           "selector": "cron-auto-complete",
           "type": "logic"
@@ -4803,13 +4818,6 @@
           "selector": "cron-auto-complete",
           "displayName_pt_BR": "Ao Filtrar",
           "displayName_en_US": "On Filtering",
-          "type": "event"
-        },
-        {
-          "name": "ng-open",
-          "selector": "cron-auto-complete",
-          "displayName_pt_BR": "Ao Abrir",
-          "displayName_en_US": "On Open",
           "type": "event"
         },
         {
@@ -5332,6 +5340,23 @@
       "wrapper": false,
       "pallete": false,
       "templateURL": "src/main/webapp/plugins/cronapp-framework-js/dist/components/templates/head-cell.template.html",
+      "properties": {
+        "class": {
+          "order": 9999
+        },
+        "id": {
+          "order": 1
+        }
+      }
+    },
+    {
+      "name": "crn-foot-cell",
+      "text_pt_BR": "Célula Rodapé Tabela",
+      "text_en_US": "Table Footer Cell",
+      "class": "adjust-icon mdi mdi-apps",
+      "wrapper": false,
+      "pallete": false,
+      "templateURL": "src/main/webapp/plugins/cronapp-framework-js/dist/components/templates/foot-cell.template.html",
       "properties": {
         "class": {
           "order": 9999
