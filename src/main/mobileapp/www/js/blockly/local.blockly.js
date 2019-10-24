@@ -4,6 +4,22 @@ window.blockly.js.blockly = window.blockly.js.blockly || {};
 window.blockly.js.blockly.Local = window.blockly.js.blockly.Local || {};
 
 /**
+ * Descreva esta função...
+ */
+window.blockly.js.blockly.Local.alternaCubo = function() {
+ var item, qs;
+  console.log(!this.cronapi.util.executeJavascriptReturn('document.getElementById(\"crn-image-276040\").getAttribute(\"ng-show\")'));
+  if (this.cronapi.util.executeJavascriptReturn('document.getElementById(\"crn-image-276040\").getAttribute(\"ng-show\")')) {
+    this.cronapi.screen.changeAttrValue("crn-image-276040", 'ng-show', 'false');
+    this.cronapi.screen.changeAttrValue("crn-image-334073", 'ng-show', 'true');
+  } else {
+    this.cronapi.screen.changeAttrValue("crn-image-276040", 'ng-show', 'true');
+    this.cronapi.screen.changeAttrValue("crn-image-334073", 'ng-show', 'false');
+  }
+  this.cronapi.util.executeJavascriptNoReturn('location.reload(false)');
+}
+
+/**
  * local
  */
 window.blockly.js.blockly.Local.locais = function() {
@@ -36,14 +52,6 @@ window.blockly.js.blockly.Local.locais = function() {
 window.blockly.js.blockly.Local.mudaPelo = function() {
  var item, qs;
   this.cronapi.screen.changeView("#/app/public/local",[ { id : 1 } ]);
-}
-
-/**
- * Descreva esta função...
- */
-window.blockly.js.blockly.Local.alternaCubo = function() {
- var item, qs;
-  console.log('abc');
 }
 
 /**
