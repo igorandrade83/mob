@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="src/main/mobileapp/www/views/public/local.view.html" resourceType="JS" ruleDescription="local" ruleName="local" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
-  <metadata scale="1" scrollx="434.4" scrolly="36.299999999999955" target="IYqP#yST|dQlC.DHqm:H"/>
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/mobileapp/www/views/public/home.view.html" resourceType="JS" ruleDescription="local" ruleName="local" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="202.04922043736462" scrolly="18.099999999999994" target="JB(=2bwDIR!WKH#gv8n{"/>
   <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-277" y="23">
     <field name="NAME">locais</field>
     <comment h="80" pinned="false" w="160">local</comment>
@@ -347,7 +347,17 @@
       </block>
     </statement>
   </block>
-  <block colour="#fca03b" id="IYqP#yST|dQlC.DHqm:H" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-292" y="38">
+  <block colour="#934848" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="=P0WPo`Xu`s[#1xj6(RR" inline="true" multilayer="false" namespace="cronapi.screen.getValueOfField" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20valor%20do%20Campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20valor%20do%20campo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Campo%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.getValueOfField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" x="98" y="38">
+    <mutation name="{{cronapi.screen.getValueOfField}}" return-raw-type="undefined">
+      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
+    </mutation>
+    <value name="ARG0">
+      <block colour="#934848" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="_bMM]q)]q/,D7oouI)oh" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+        <field name="SELECT">vars.exibeCubo</field>
+      </block>
+    </value>
+  </block>
+  <block colour="#fca03b" id="IYqP#yST|dQlC.DHqm:H" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-272" y="58">
     <field name="NAME">mudaPelo</field>
     <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
     <statement name="STACK">
@@ -359,6 +369,19 @@
           <block colour="#5b67a5" dependencyby="IYqP#yST|dQlC.DHqm:H" id="(ZDZ+hB4kLFRz{u4{%N[" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
             <field name="NUM">1</field>
           </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="JB(=2bwDIR!WKH#gv8n{" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-142" y="83">
+    <field name="NAME">alternaCubo</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="41_k!dtdtwY89o(zl(}`" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="$.D+o,UUn],4GmR9{#qw" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">abc</field>
+          </shadow>
         </value>
       </block>
     </statement>
@@ -375,6 +398,33 @@
           <block colour="#5b67a5" dependencyby="[Fok1]d%NKf]cPf(f5^j" id="V|5uk)=nTo9QEiejd.Q+" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
             <field name="NUM">0</field>
           </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#5b80a5" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="lMquU|+LUa9~J,|rX#Qz" origintype="controls_if" output="false" tooltip="function () { [native code] }" type="controls_if" x="143" y="218">
+    <mutation else="1"/>
+    <statement name="DO0">
+      <block colour="#934848" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="ZETM2]iM-;7q{$I8V/H|" multilayer="true" namespace="cronapi.screen.changeAttrValue" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefinir%20valor%20do%20atributo%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20define%20o%20valor%20do%20atributo%20de%20um%20elemento%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Obter%20identificador%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Identificador%20(id)%20a%20ser%20obtido%20do%20Formul%C3%A1rio%20selecionado%3C/div%3E%3Cspan%3E%20-%20Nome%20do%20atributo%20:%20Texto%3C/span%3E%3Cdiv%3E%20Nome%20do%20atributo%20contido%20no%20Identificador.%20Exemplo:%20%20src='teste'%20retorna%20src%3C/div%3E%3Cspan%3E%20-%20Valor%20do%20atributo%20:%20Texto%3C/span%3E%3Cdiv%3E%20Valor%20do%20atributo%20contido%20no%20Identificador.%20Exemplo:%20%20src='teste'%20retorna%20teste%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.changeAttrValue%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.changeAttrValue%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.changeAttrValue}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.OBJECT" name="Obter identificador"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Nome do atributo"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Valor do atributo"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#934848" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="`6-IK-}*~z06ZkUU0FGz" origintype="ids_from_screen" output="true" type="ids_from_screen">
+            <field name="SELECT">crn-spacer-909305</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow colour="#5ba593" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="1Z%JfL3L?wl.f.C0flnz" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT"/>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5ba593" dependencyby="JB(=2bwDIR!WKH#gv8n{" id="n?3FfHomIld7DX(GFUEs" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT"/>
+          </shadow>
         </value>
       </block>
     </statement>

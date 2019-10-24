@@ -7,7 +7,7 @@ window.blockly.js.blockly.Local = window.blockly.js.blockly.Local || {};
  * local
  */
 window.blockly.js.blockly.Local.locais = function() {
- var qs;
+ var item, qs;
   qs = this.cronapi.screen.getParam('id');
   if (qs == '1') {
     this.cronapi.screen.changeContent("titulo", 'Pelourinho', 'false');
@@ -34,14 +34,22 @@ window.blockly.js.blockly.Local.locais = function() {
  * Descreva esta função...
  */
 window.blockly.js.blockly.Local.mudaPelo = function() {
- var qs;
+ var item, qs;
   this.cronapi.screen.changeView("#/app/public/local",[ { id : 1 } ]);
 }
 
 /**
  * Descreva esta função...
  */
+window.blockly.js.blockly.Local.alternaCubo = function() {
+ var item, qs;
+  console.log('abc');
+}
+
+/**
+ * Descreva esta função...
+ */
 window.blockly.js.blockly.Local.mudaHuma = function() {
- var qs;
+ var item, qs;
   this.cronapi.screen.changeView("#/app/public/local",[ { id : 0 } ]);
 }
