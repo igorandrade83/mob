@@ -34,12 +34,13 @@
     "angular-moment": "^1.2.0",
     "pace": "1.0.2"
   },
-  "_release": "35fb35e9a3",
+  "_release": "e38a1e907a",
   "_resolution": {
     "type": "commit",
-    "commit": "35fb35e9a3a9fb5d944025d470bc3f6f0a4e669c"
+    "commit": "e38a1e907ad820e43a5ef4ff9f7ce0d1efa92382"
   },
   "_source": "https://github.com/technecloud/cronapp-framework-mobile-js.git",
-  "_target": "35fb35e9a3a9fb5d944025d470bc3f6f0a4e669c",
-  "_originalSource": "cronapp-framework-mobile-js"
+  "_target": "e38a1e907ad820e43a5ef4ff9f7ce0d1efa92382",
+  "_originalSource": "https://github.com/technecloud/cronapp-framework-mobile-js.git",
+  "_direct": true
 }
