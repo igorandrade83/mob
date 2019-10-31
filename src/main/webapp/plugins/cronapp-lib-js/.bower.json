@@ -14,12 +14,13 @@
     "test",
     "tests"
   ],
-  "_release": "9afa55ff4f",
+  "_release": "732c35c38b",
   "_resolution": {
     "type": "commit",
-    "commit": "9afa55ff4fd94e152889447173e5b5b1f830815f"
+    "commit": "732c35c38b98525f6965607cef89db71a3126faa"
   },
   "_source": "https://github.com/CronApp/cronapp-lib-js.git",
-  "_target": "9afa55ff4fd94e152889447173e5b5b1f830815f",
-  "_originalSource": "cronapp-lib-js"
+  "_target": "732c35c38b98525f6965607cef89db71a3126faa",
+  "_originalSource": "https://github.com/CronApp/cronapp-lib-js.git",
+  "_direct": true
 }
