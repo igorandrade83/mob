@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/mobileapp/www/views/public/favoritar.view.html" resourceType="JS" ruleDescription="localizacao" ruleName="localizacao" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
-  <metadata scale="1" scrollx="443.99999999999994" scrolly="-87.99999999999997" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="444" scrolly="-88" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
-    <field name="NAME">linkLocalizacao</field>
+    <field name="NAME">linkFavoritos</field>
     <comment h="80" pinned="false" w="160">localizacao</comment>
     <statement name="STACK">
       <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="M(=/o.D-ZnUh(Am1/VoV" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">

@@ -6,7 +6,7 @@ window.blockly.js.blockly.Favoritar = window.blockly.js.blockly.Favoritar || {};
 /**
  * localizacao
  */
-window.blockly.js.blockly.Favoritar.linkLocalizacao = function() {
+window.blockly.js.blockly.Favoritar.linkFavoritos = function() {
  var qs;
   qs = this.cronapi.screen.getParam('qs');
   if (qs == '2') {
