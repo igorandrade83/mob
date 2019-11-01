@@ -30,12 +30,11 @@ window.blockly.js.blockly.Local.locais = function() {
     this.cronapi.screen.changeContent("titulo", 'Farol da Barra', 'false');
     this.cronapi.screen.changeAttrValue("a_loc", 'href', '#/app/public/localizacao?qs=3');
     this.cronapi.screen.changeAttrValue("a_trans", 'href', '#/app/public/localizacao?qs=3');
-    this.cronapi.screen.changeContent("resumo", 'O Farol da Barra, ou Farol de Santo Antônio,[2] localiza-se na antiga ponta do Padrão, atual Ponta de Santo Antônio, em Salvador, no litoral do estado da Bahia, no Brasil. O farol primitivo foi o segu' +
-     'ndo existente em todo o continente americano, antecedido somente pelo farol do antigo Palácio de Friburgo no Recife.[3]\n\nA torre atual, de 1839, é troncônica em alvenaria com lanterna e galeria, tem' +
-     ' 22 metros de altura e foi pintada com bandas pretas e brancas. O farol está construído no interior do Forte de Santo Antônio da Barra.\n', 'false');
+    this.cronapi.screen.changeContent("resumo", 'O Farol da Barra, ou Farol de Santo Antônio, localiza-se na antiga ponta do Padrão, atual Ponta de Santo Antônio, em Salvador, no litoral do estado da Bahia, no Brasil. O farol primitivo foi o segundo' +
+     ' existente em todo o continente americano, antecedido somente pelo farol do antigo Palácio de Friburgo no Recife.[3]\n\nA torre atual, de 1839, é troncônica em alvenaria com lanterna e galeria, tem 22' +
+     ' metros de altura e foi pintada com bandas pretas e brancas. O farol está construído no interior do Forte de Santo Antônio da Barra.\n', 'false');
     this.cronapi.screen.changeAttrValue("imgCentral", 'src', 'img/faroldabarra.jpg');
   }
-  return qs == '4';
 }
 
 /**
