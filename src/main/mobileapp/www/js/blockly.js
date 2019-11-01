@@ -7,6 +7,7 @@ window.blockly.js.blockly = window.blockly.js.blockly || {};
 window.translations = window.translations || {};
 window.translations.localesKeys = ['pt_br','en_us'];
 window.translations.localesRef =  {"pt*":"pt_br","*":"pt_br","en*":"en_us"};
+document.write("<script src='js/blockly/Notificacao.blockly.js?1572626340141'></script>");
 document.write("<script src='js/blockly/localizacao.blockly.js?1572621599837'></script>");
 document.write("<script src='js/blockly/restaurantes.blockly.js?1572622022078'></script>");
 document.write("<script src='js/blockly/local.blockly.js?1572624168876'></script>");
