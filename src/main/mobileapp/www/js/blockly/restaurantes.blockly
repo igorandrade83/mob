@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/mobileapp/www/views/public/localizacao.view.html" resourceType="JS" ruleDescription="localizacao" ruleName="localizacao" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
-  <metadata scale="1" scrollx="443.9999999999999" scrolly="-912.5" target="Anb:u5+^,0vLkL9QIqn5"/>
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/mobileapp/www/views/public/restaurantes.view.html" resourceType="JS" ruleDescription="localizacao" ruleName="localizacao" ruleSecurity="{&quot;filter&quot;:&quot;Public&quot;,&quot;post&quot;:&quot;Public&quot;,&quot;get&quot;:&quot;Public&quot;,&quot;execute&quot;:&quot;Public&quot;,&quot;delete&quot;:&quot;Public&quot;,&quot;put&quot;:&quot;Public&quot;}" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="444" scrolly="-23.499999999999986" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
-    <field name="NAME">linkLocalizacao</field>
+    <field name="NAME">linkRestaurantes</field>
     <comment h="80" pinned="false" w="160">localizacao</comment>
     <statement name="STACK">
       <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="M(=/o.D-ZnUh(Am1/VoV" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
@@ -81,7 +81,7 @@
                     </value>
                     <value name="ARG2">
                       <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="gOwcZ::}eYm^gGKDk`;*" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                        <field name="TEXT">https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9743828113415!2d-38.51205883447978!3d-12.973490263363914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7b38f66a7%3A0xb90fb09cf176ef24!2sPelourinho%2C%20Salvador%20-%20BA%2C%2040301-110!5e0!3m2!1spt-BR!2sbr!4v1571968216155!5m2!1spt-BR!2sbr</field>
+                        <field name="TEXT">https://www.google.com/search?sxsrf=ACYBGNREVsBAcpVNG4KtUKcFcPpTsFPdiw:1572621114983&amp;q=restaurantes+no+pelourinho&amp;npsic=0&amp;rflfq=1&amp;rlha=0&amp;rllag=-12972738,-38508444,154&amp;tbm=lcl&amp;ved=2ahUKEwi157KXpsnlAhUbGLkGHXV9ApwQtgN6BAgKEAQ&amp;tbs=lrf:!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkJS,lf:1,lf_ui:9&amp;rldoc=1</field>
                       </shadow>
                     </value>
                     <next>
@@ -98,7 +98,7 @@
                         </value>
                         <value name="ARG1">
                           <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O~8Jk0h_($E]^UA=%;TV" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                            <field name="TEXT">Localização do Pelourinho.</field>
+                            <field name="TEXT">Restaurantes do Pelourinho.</field>
                           </shadow>
                         </value>
                         <value name="ARG2">
@@ -176,7 +176,7 @@
                     </value>
                     <value name="ARG2">
                       <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="grsS?WX]ZEw$4wy@]d~Y" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                        <field name="TEXT">https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9611473393684!2d-38.51533258447996!3d-12.974336863381149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604efa5d0086f%3A0x725930e371c16778!2sElevador%20Lacerda!5e0!3m2!1spt-BR!2sbr!4v1571968312917!5m2!1spt-BR!2sbr</field>
+                        <field name="TEXT">https://www.google.com/search?sxsrf=ACYBGNTTcApG7lesb5OSS13BXQ9THTZX2A:1572621688235&amp;q=restaurantes+no+elevador+lacerda&amp;npsic=0&amp;rflfq=1&amp;rldoc=1&amp;rlha=0&amp;rllag=-12975012,-38514044,245&amp;tbm=lcl&amp;sxsrf=ACYBGNTTcApG7lesb5OSS13BXQ9THTZX2A:1572621688235&amp;sa=X&amp;ved=2ahUKEwjemd-oqMnlAhUKHLkGHeN2DKkQtgN6BAgLEAQ</field>
                       </shadow>
                     </value>
                     <next>
@@ -193,7 +193,7 @@
                         </value>
                         <value name="ARG1">
                           <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="u-|!Zmx;q_rj`0p*^Vk?" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                            <field name="TEXT">Localização do Elevador Lacerda.
+                            <field name="TEXT">Restaurantes próximos do Elevador Lacerda.
 </field>
                           </shadow>
                         </value>
@@ -272,7 +272,7 @@
                     </value>
                     <value name="ARG2">
                       <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="}7Rb~N,u~YsuZ358VKd#" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                        <field name="TEXT">https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9611473393684!2d-38.51533258447996!3d-12.974336863381149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604efa5d0086f%3A0x725930e371c16778!2sElevador%20Lacerda!5e0!3m2!1spt-BR!2sbr!4v1571968312917!5m2!1spt-BR!2sbr</field>
+                        <field name="TEXT">https://www.google.com/search?sxsrf=ACYBGNRcn69ewFKiVdzkdmWykP_mStchPA:1572621641706&amp;q=restaurantes+no+farol+da+barra&amp;npsic=0&amp;rflfq=1&amp;rlha=0&amp;rllag=-13009929,-38529177,410&amp;tbm=lcl&amp;ved=2ahUKEwjyoseSqMnlAhXtIbkGHaZYDsMQtgN6BAgKEAQ&amp;tbs=lrf:!3sIAEqAkJS,lf:1,lf_ui:9&amp;rldoc=1</field>
                       </shadow>
                     </value>
                     <next>
@@ -289,7 +289,7 @@
                         </value>
                         <value name="ARG1">
                           <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="0{v:9x.j00}]2xO0mXmw" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                            <field name="TEXT">Localização do Farol da Barra</field>
+                            <field name="TEXT">Restaurantes próximos ao Farol da Barra</field>
                           </shadow>
                         </value>
                         <value name="ARG2">
