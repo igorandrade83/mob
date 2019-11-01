@@ -26,3 +26,11 @@ window.blockly.js.blockly.Localizacao.linkLocalizacao = function() {
     this.cronapi.screen.changeContent("resumoLocalizacao", 'Localização do Farol da Barra', 'false');
   }
 }
+
+/**
+ * Descreva esta função...
+ */
+window.blockly.js.blockly.Localizacao.voltar = function() {
+ var qs;
+  this.cronapi.screen.changeView("#/app/public/tela2",[ { qs : this.cronapi.screen.getParam('qs') } ]);
+}
