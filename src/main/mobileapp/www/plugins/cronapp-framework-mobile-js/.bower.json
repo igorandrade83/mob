@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "1.5.9",
+    "angular-aria": "1.5.9",
     "angular-cookies": "1.5.8",
     "angular-dynamic-locale": "0.1.32",
     "angular-i18n": "1.4.5",
@@ -34,12 +35,13 @@
     "angular-moment": "^1.2.0",
     "pace": "1.0.2"
   },
-  "_release": "e06ef97321",
+  "_release": "fba119096b",
   "_resolution": {
     "type": "commit",
-    "commit": "e06ef9732114128f7a8d30457f2fc69559b0c794"
+    "commit": "fba119096bafd90675d7582c97131c81d96c1031"
   },
   "_source": "https://github.com/technecloud/cronapp-framework-mobile-js.git",
-  "_target": "e06ef9732114128f7a8d30457f2fc69559b0c794",
-  "_originalSource": "cronapp-framework-mobile-js"
+  "_target": "fba119096bafd90675d7582c97131c81d96c1031",
+  "_originalSource": "https://github.com/technecloud/cronapp-framework-mobile-js.git",
+  "_direct": true
 }
